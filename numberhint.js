@@ -15,7 +15,4 @@ for(i=0;i<100;i++){
     else{
         alert(`I don't know !!!`);
     }
-    
-
-
 }
