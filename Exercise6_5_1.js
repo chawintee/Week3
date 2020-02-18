@@ -6,6 +6,7 @@ price = (age<18) ? 2000 : 3500 ;
 alert(price);
 console.log(price);
 
+console.log(true != true  );
 
 
 // if (age<18) 
