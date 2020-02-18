@@ -8,7 +8,7 @@ if (myUser==`Admin`)
         alert(`Your welcome`);
         console.log(myPassword);
     }
-    else if(myPassword==` `||myPassword==null)
+    else if(myPassword==``||myPassword==null)
     {
         alert(`Cancel`);
         console.log(myPassword);
