@@ -54,15 +54,15 @@
 // f4_4(number4);
 
 /*Exercise 4.5 */
-function f4_5(n5){
-    let output5 = ``;
-    for(let i5=n5;i5>=0;i5--){
-        for(let j5=n5;j5>=0;j5--){
-            output5 += `${i5}`;
-        }
-        output5 += `\n`;
-    }
-    console.log(output5);
-}
-num5 = prompt(`Number ???`);
-f4_5(num5);
+// function f4_5(n5){
+//     let output5 = ``;
+//     for(let i5=n5;i5>=0;i5--){
+//         for(let j5=n5;j5>=0;j5--){
+//             output5 += `${i5}`;
+//         }
+//         output5 += `\n`;
+//     }
+//     console.log(output5);
+// }
+// num5 = prompt(`Number ???`);
+// f4_5(num5);
