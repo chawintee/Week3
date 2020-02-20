@@ -1,6 +1,6 @@
 let myNumber = prompt(`Input you number for friend (Number between 1 to 100)`);
 console.log(myNumber);
-for(i=0;i<100;i++){
+while(myNumber>=1 && myNumber<=100){
     let friendNumber = prompt(`You friend Number is (Number between 1 to 100)`);
     if (friendNumber==myNumber){
         alert(`This is right number.`);
