@@ -1,17 +1,24 @@
-function bmi (kg, m) {
+function bmi (kg, cm) {
     let bmi0;
-    bmi0 = kg/(m*m);
+    bmi0 = kg / ((cm/100) ** 2);
     return bmi0;
 }
 
+function printName(Name, BMI){
+    alert (`Name : ${Name} \n BMI. : ${BMI}`);
+}
+
+
 function compare(n1, w1, h1, n2, w2 ,h2 ) {
     let bmi1=bmi(w1, h1), bmi2=bmi(w2, h2);
-    // console.log(bmi1);
-    // console.log(bmi2);
+    console.log(bmi1);
+    console.log(bmi2);
     if(bmi1 > bmi2){
-        alert(`${n1} ${bmi1}`);
+        // alert(`${n1} ${bmi1}`);
+        printName(n1,bmi1);
     }else {
-        alert(`${n2} ${bmi2}`);
+        // alert(`${n2} ${bmi2}`);
+        printName(n2,bmi2);
     }
 }
 
